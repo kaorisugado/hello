@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 
   get '/test' => 'test#main'
+
+  get '/test2' => 'test#main2'
   # TestControllerのmainを、HTTP GET /test に割り当てる。
 
   # TestControllerがない状態で/testをたたくとuninitialized constant TestControllerのエラーがでる。
